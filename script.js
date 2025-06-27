@@ -31,10 +31,6 @@ const clearBtn = document.getElementById('clear-completed-btn');
 clearBtn.addEventListener('click', () => {
   document.querySelectorAll('#task-list li.completed')
     .forEach(li => li.remove());
-<<<<<<< HEAD
+
 });
 
-// Branch 2
-=======
-});
->>>>>>> 136ca40d6607b89bec8256531b3df913b1a337df
